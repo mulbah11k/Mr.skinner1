@@ -1,0 +1,264 @@
+.about-background-img {
+    background-image: url(./about-background-img.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 900px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+}
+
+.about-holder-h2 {
+    height: 50%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.about-focus {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:900;
+    color:  #dd433b;
+    font-family: "Roboto", sans-serif;
+}
+
+.about-h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+
+
+}
+ 
+.about-insight-query {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(71, 155, 167);
+    position: relative;
+}
+
+.insight-query {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding-top: 40px;
+    color:white;
+    font-weight: bold;
+}
+
+.about-btn-thought {
+    position: absolute;
+    bottom: -25px;
+    left: 40%;
+   
+}
+
+.btn-thought {
+    font-size: 1.2rem;
+    background-color: #333333;
+    color:white;
+    border-color: #ffffff;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 25px;
+    background:  #dd433b;
+    padding: 10px;
+    transition: 100ms ease-in-out;
+}
+
+.btn-thought:hover{
+    background: #ffffff;
+    color:  #dd433b;
+ }
+
+ .about-info {
+    margin-top: 50px;
+    margin-inline:auto; 
+    max-width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .about-heading-container {
+    
+ }
+
+ .about-heading-container p {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: rgb(87, 85, 85);
+    margin-bottom: 30px;
+ }
+
+ .about-info-text p {
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(39, 195, 219);
+    font-weight: bold;
+ }
+
+ .video-preview {
+    max-width: 1500px;
+    height: 25rem;
+    margin-inline: auto;
+    border: 1px solid rgb(231, 231, 231);
+
+    border-left: none;
+    border-right: none;
+ }
+
+ .video-preview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+
+ .video-preview video {
+    width: 40%;
+    background: rgb(146, 60, 60);
+   
+ }
+
+ .about-team-container {
+    margin-left: 50px;
+    margin-inline: 15rem;
+ }
+
+ .about-our-team {
+    margin-bottom: 30px;
+    margin-top: 10px;
+ }
+
+ .about-our-team .line {
+    border-top:none ;
+    border-right:none ;
+    border-left:none ;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(228, 158, 8);
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+
+    width: 10rem;
+ }
+
+ .about-info .line {
+    border-top:none ;
+    border-right:none ;
+    border-left:none ;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(228, 158, 8);
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+    width: 30rem;
+ }
+
+ .about-our-team h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+ }
+
+ .team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+   
+ }
+
+ .about-our-team-box {
+    box-shadow: 0 0 5px 1px gray;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+   
+ }
+
+ .about-our-team-box:hover {
+    transform: scale(0.9);
+ }
+
+ .preview-img {
+    object-fit: cover;
+    margin-bottom: 10px;
+ }
+
+ .preview-img img {
+    width: 100%;
+    height: 250px;
+ } 
+
+ .person-info-box {
+    display: inline-block;
+ }
+
+ .info {
+    margin-left: 10px;
+ }
+
+ .person-name {
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ .person-position {
+    color:  #abb8c3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .person-socialmedia-platform  {
+    margin-top:10px;
+    padding-bottom: 10px;
+ }
+
+ .person-socialmedia-platform .icon {
+    width: 20px;
+    height: 20px;
+    margin-right:5px;
+    cursor: pointer;
+ }
+
+ .facebook {
+    color:blue;
+ }
+ .instagram {
+    color:rgb(207,46,46);
+ }
+
+ .whatsapp {
+    color: #00d084;
+ }
+
+
+ /*Core Value*/
+
+ .core-value {
+    max-width: 1500px;
+    height: 40rem;
+    margin-inline:4rem;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+
+    border-left: none;
+    border-right: none;
+ }
+
+ .core-value-heading h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+ }
+
+
+
+
